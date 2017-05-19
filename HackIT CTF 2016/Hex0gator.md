@@ -6,18 +6,17 @@ categories:
 - CTF 
 - H4ckIT 2016
 ---
+# Hex0gator
 
-## Challenge
+### Challenge
+- **Competition:** HackIT CTF 2016
+- **Category:** PPC
+- **Points:** 250
+- **File:** [100](./files/100)
 
 > All Experts of The Silver Shield Project can't decipher the intercepted data. Who knows, maybe you can do it?
 
-
-##### Files
-
-1. 100_00edb54bed7e46bd5cdb7c06059881c2
-
-
-## Solution
+### Solution
 
 Before I could attempt to do anything at all, I needed to know what kind of file I was given.  After transferring it over to Linux, it had an icon for a compressed file type, like Zip.  Running the `file` command confirmed this.  I peeked inside of the compressed file by double clicking the icon and was greeted with a folder, named __work_folder__.  Inside this delightful little folder was another file.  Named __99__.
 
@@ -28,7 +27,7 @@ This was a black hole of compressed files within compressed files.  I got a litt
 It's kind of a mess of a script, I'll admit.  Surely there is a Python way to unzip and untar and unrar.  I think it even ends by erroring out...  But I got the flag in the end.  I definitely want to improve my scripting.
 
 
-## Script (Python)
+### Script (Python)
 
 ```python
 import sys
@@ -86,16 +85,10 @@ while True:
 			shutil.move('work_folder/'+file, '.')
 			shutil.rmtree('work_folder')
 			unzip(file)
-
-			
-
 	else:
 		break
-
 ```
 
-## Flag
+### Flag
 
-```none
-h4ck1t{0W_MY_G0D_Y0U_M4D3_1T}
-```
+`h4ck1t{0W_MY_G0D_Y0U_M4D3_1T}`

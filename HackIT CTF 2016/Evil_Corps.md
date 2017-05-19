@@ -1,35 +1,26 @@
----
-layout: post
-title: H4ckIT CTF 2016 - Evil_Corps (Crypto 115)
-date: 2016-10-03 12:04:00
-categories: 
-- CTF 
-- H4ckIT 2016
----
+# Evil_Corps
 
-## Challenge
+### Challenge
+- **Competition:** HackIT CTF 2016
+- **Category:** Crypto
+- **Points:** 115
+- **File:** [THEPlantation.txt](./files/THEPlantation.txt)
 
-> Genegal Thompson welcomes you! <br>
-> Let me be extremely brief. <br>
-> Our forensic team have already been investigating <br>
-> "The Great Plantation" project for 2 years. <br>
-> During this long period we knew a lot of interesting things like: <br>
-> 1) This is the project of Masons. <br>
-> 2) The main target is to take over the world with planting own people into big companies. <br>
-> 3) Masons do not trust modern encryption algorithms. <br>
-> 4) Masons think their own alphabet will let them to communicate more securely than anything else. <br>
-> Short time ago we have withdrawn the notebook of one of their members. <br>
-> There was one interesting file named "THEPlantation.txt". <br>
-> Surely, it was encrypted. Help us to pull the info out of this! <br>
+> Genegal Thompson welcomes you!
+> Let me be extremely brief.
+> Our forensic team have already been investigating
+> "The Great Plantation" project for 2 years.
+> During this long period we knew a lot of interesting things like:
+> 1) This is the project of Masons.
+> 2) The main target is to take over the world with planting own people into big companies.
+> 3) Masons do not trust modern encryption algorithms.
+> 4) Masons think their own alphabet will let them to communicate more securely than anything else.
+> Short time ago we have withdrawn the notebook of one of their members.
+> There was one interesting file named "THEPlantation.txt".
+> Surely, it was encrypted. Help us to pull the info out of this!
 > Yours, Gen. Tompson
 
-
-###### Files
-
-1. THEPlantation_c6aa4681e8135e731a7ee657ec9c64e7.txt
-
-
-## Solution
+### Solution
 
 With the given 'clues' from the challenge text in mind, I jumped right into the text file.  At first glance this file contained only junk characters.  I kept scanning the lines visually, hoping for some _actual_ letters to be hiding somewhere, but there weren't.  What was weird, though, was that I could almost read this supposed junk text.  Here's a snippet:
 
@@ -47,7 +38,7 @@ WELL TAKE YOUR JUICY FLAG CRYPTOMANIAC
 ```
 
 
-## Script (Python)
+### Script (Python)
 
 ```python
 
@@ -109,8 +100,6 @@ print(final)
 
 ```
 
-## Flag
+### Flag
 
-```none
-h4ck1t{massonsareeverywherelookbehindyou}
-```
+`h4ck1t{massonsareeverywherelookbehindyou}`

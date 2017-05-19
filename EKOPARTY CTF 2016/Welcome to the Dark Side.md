@@ -1,25 +1,19 @@
----
-layout: post
-title: EKOPARTY CTF 2016 - Welcome to the Dark Side (FBI 25)
-date: 2016-10-29 12:03:00
-categories: 
-- CTF 
-- EKOPARTY CTF 2016
----
+# Welcome to the Dark Side
 
-## Challenge
+### Challenge
+- **Competition:** EKOPARTY CTF 2016
+- **Category:** FBI
+- **Points:** 25
 
 > At Silk Road, every precaution is made to ensure your anonymity and security, from connecting to the site, to making your transactions, to receiving your items.
 >
 > https://silkroadzpvwzxxv.onion
 
 
-## Solution
+### Solution
 
 This was an extremely simple challenge since I already understood what a `.onion` address was and how to access it.  I simply fired up a TOR browser, went to the page, and checked out the page source.  There was a comment with the flag written in it.
 
-## Flag
+### Flag
 
-```none
-EKO{buy_me_some_b0ts}
-```
+`EKO{buy_me_some_b0ts}`

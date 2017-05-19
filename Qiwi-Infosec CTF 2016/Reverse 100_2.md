@@ -1,22 +1,14 @@
----
-layout: post
-title: Qiwi-Infosec CTF 2016 - Reverse 100_2 (Reverse 100)
-date: 2016-11-19 12:00:00
-categories: 
-- CTF 
-- Qiwi-Infosec CTF 2016
----
+# Reverse 100_2
 
-## Challenge
+### Challenge
+- **Competition:** Qiwi-Infosec CTF 2016
+- **Category:** Reverse
+- **Points:** 100
+- **File:** [task.pyc](./files/task.pyc)
 
 > I have a snake. CrackMe!
 
-##### Files
-
-1. task.pyc
-
-
-## Solution
+### Solution
 
 I've never worked with a python executable file before, but I quickly found the program __uncompyle2__ to do the job for me.  Decompiling the given .pyc gave the following result:
 
@@ -75,7 +67,6 @@ This seemed like a good lead to follow, so I constructed the string and applied 
 `synt:{wqE6fxuofa4XNu1}` __==> ROT-13 ==>__ `flag:{jdR6skhbsn4KAh1}`
 
 
-## Flag
-```none
-{jdR6skhbsn4KAh1}
-```
+### Flag
+
+`{jdR6skhbsn4KAh1}`

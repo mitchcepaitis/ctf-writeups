@@ -1,13 +1,9 @@
----
-layout: post
-title: Qiwi-Infosec CTF 2016 - Crypto 400_1 (Crypto 400)
-date: 2016-11-19 12:03:00
-categories: 
-- CTF 
-- Qiwi-Infosec CTF 2016
----
+# Crypto 400_1
 
-## Challenge
+### Challenge
+- **Competition:** Qiwi-Infosec CTF 2016
+- **Category:** Crypto
+- **Points:** 400
 
 > Message m has been encrypted by RSA with exponent e=3 for three users. Users have been used different modulus (n1, n2, n3 respectively). As a result 3 ciphertexts have been obtained (c1, c2, c3 respectively). Decrypt the message. The flag is a sensible text.
 > 
@@ -53,17 +49,14 @@ categories:
 > 8157823484073954500033820291767800826979417910073234126
 > 9448362920924719338148857398181962112.
 
+### Solution
 
-## Solution
+I immediately recognized the components of this challenge because it is similar to one that I recently saw:  [Interceptor from H4ckIT CTF 2016](https://ctftime.org/task/2861).  I spent quite a while working on that task and learned a great deal about RSA, [Håstad's broadcast attack](https://en.wikipedia.org/wiki/Coppersmith's_attack#H.C3.A5stad.27s_broadcast_attack), and the [Chinese Remainder Theorem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem) but I was unable to complete it completely on my own.
 
-I immediately recognized the components of this challenge because it is similar to one that I recently saw:  [Interceptor from H4ckIT CTF 2016](https://ctftime.org/task/2861).  I spent quite a while working on that task and learned a great deal about RSA, [Håstad's broadcast attack](https://en.wikipedia.org/wiki/Coppersmith's_attack#H.C3.A5stad.27s_broadcast_attack), and the [Chinese Remainder Theorem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem) but I was unable to complete it in the end.
+I utilized a script that can easily solve this type of challenge, written by __Sophie LEGRAS__.
 
-I haven't spent a great deal of time learning about cryptography and I don't think it will be an area of specialty for me, at least not at this point, so in an effort to save time and move on to other challenges I utilized a script that can easily solve this type of challenge.
+The script I used can be found [on this page](http://insecurity-insa.fr/writeUp), under the __"H4CKIT - INTERCEPTOR 95"__ entry.
 
-The script I used can be found [on this page](http://insecurity-insa.fr/writeUp), under the __"H4CKIT - INTERCEPTOR 95"__ entry.  That entry was written by __Sophie LEGRAS__.  Thank you, Sophie, for writing and sharing a great script.
+### Flag
 
-
-## Flag
-```none
-theoretical_computer_scientist_johan_torkel_hastad
-```
+`theoretical_computer_scientist_johan_torkel_hastad`

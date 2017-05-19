@@ -1,11 +1,3 @@
----
-layout: post
-title: Juniors CTF 2016 - Black Suprematic Square (Trivial Web)
-date: 2016-11-28 12:00:00
-categories: 
-- CTF 
-- Juniors CTF 2016
----
 # Black Suprematic Square
 
 ### Challenge

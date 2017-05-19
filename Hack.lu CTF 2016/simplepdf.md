@@ -4,7 +4,7 @@
 - **Competition:** Hack.lu CTF 2016
 - **Category:** Programming
 - **Points:** 150
-- **Files:** simple.pdf
+- **Files:** [simple.pdf](./files/simplepdf.pdf)
 
 > This one is realy simple ... Just get the Flag out of this pdf.
 

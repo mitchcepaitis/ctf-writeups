@@ -1,22 +1,14 @@
----
-layout: post
-title: Hackover CTF 2016 - thecard (Forensics 9)
-date: 2016-10-10 12:00:00
-categories: 
-- CTF 
-- Hackover 2016
----
+# thecard
 
-## Challenge
+### Challenge
+- **Competition:** Hackover CTF 2016
+- **Category:** Forensics
+- **Points:** Variable
+- **File:** [thecard.img.xz](./files/thecard.img.xz)
 
 > We obtained a cyber terrorist's SD card, but it seems to be broken. Can you help us recover its content?
 
-##### Files
-
-1. thecard.img.xz
-
-
-## Solution
+### Solution
 
 First, I extracted the .xz file contents with `xz -d thecard.img.xz`, which produced __thecard.img__.
 
@@ -55,10 +47,8 @@ Within the newly mounted file system was a file that wasn't opening properly and
 
 I copied the file to my desktop (the mounted file system was read only) and changed the first two characters of the magic number from __00__ to __FF__.  The image was now happy to open and display the flag:
 
-![hackover-2016-thecard.jpg](/img/2016/hackover-2016-thecard.jpg "hackover-2016-thecard.jpg")
+![hackover-2016-thecard.jpg](./img/hackover-2016-thecard.jpg "hackover-2016-thecard.jpg")
 
-## Flag
+### Flag
 
-```none
-hackover16{DontWorryItsJustADoll!}
-```
+`hackover16{DontWorryItsJustADoll!}`

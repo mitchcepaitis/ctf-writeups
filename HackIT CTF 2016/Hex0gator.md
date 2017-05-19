@@ -1,11 +1,3 @@
----
-layout: post
-title: H4ckIT CTF 2016 - Hex0gator (PPC 250)
-date: 2016-10-03 12:15:00
-categories: 
-- CTF 
-- H4ckIT 2016
----
 # Hex0gator
 
 ### Challenge

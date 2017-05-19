@@ -1,12 +1,3 @@
----
-layout: post
-title: H4ckIT CTF 2016 - FullyD00M3D (Web 50)
-date: 2016-10-03 12:01:00
-categories: 
-- CTF 
-- H4ckIT 2016
-
----
 # FullyD00M3D
 
 ### Challenge

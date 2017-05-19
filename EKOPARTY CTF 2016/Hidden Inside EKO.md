@@ -16,7 +16,4 @@ This was a straightforward challenge and an easy way to grab some points.  The b
 
 
 ### Flag
-
-```none
-EKO{th3_fl4g}
-```
+`EKO{th3_fl4g}`

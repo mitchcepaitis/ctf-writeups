@@ -1,7 +1,9 @@
 # Mr. Robot
-*Web 25*
 
 ### Challenge
+- **Competition:** EKOPARTY CTF 2016
+- **Category:** Web
+- **Points:** 25
 
 > Disallow it!
 
@@ -19,6 +21,4 @@ The file `/static/wIMti7Z27b.txt` contained the flag.  Navigating to it displaye
 
 ### Flag
 
-```none
-EKO{robot_is_following_us}
-```
+`EKO{robot_is_following_us}`

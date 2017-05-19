@@ -4,13 +4,9 @@
 - **Competition:** Hack.lu CTF 2016
 - **Category:** Programming
 - **Points:** 150
+- **Files:** simple.pdf
 
 > This one is realy simple ... Just get the Flag out of this pdf.
-
-##### Files
-
-1. simple.pdf
-
 
 ### Solution
 

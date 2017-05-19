@@ -1,9 +1,9 @@
 # Hidden Inside EKO
 
 ### Challenge
-**Competition:** EKOPARTY CTF 2016
-**Category:** Misc
-**Points:** 50
+-**Competition:** EKOPARTY CTF 2016
+-**Category:** Misc
+-**Points:** 50
 
 > Find the hidden flag in the EKO pixels!
 

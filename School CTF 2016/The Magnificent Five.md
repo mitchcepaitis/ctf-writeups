@@ -14,8 +14,6 @@
 
 This 'joy' challenge was extremely simple, but a good way to grab some very quick points.  The supplied image was sort of a road map which was meant to be traversed with the 'launch code' from the challenge text as the step by step directions.  The 'road map' consisted of nodes and connecting lines.  Each connecting line was labelled with either a 1 or a 0 and another character or several characters.  Using the 'launch command' to move from node to node, the flag ends up being the extra character or characters along the connecting lines.
 
-Click the image for a better look at it:
-
 [![The Magnificent Five Challenge Image](./img/schoolctf-2016-themagnificentfive.png)](./img/schoolctf-2016-themagnificentfive.png)
 
 

@@ -20,7 +20,7 @@ This challenge required doing simple mathematical operations on rather large int
 
 ### Script (Python)
 
-```none
+```python
 import re
 import socket
 import sys

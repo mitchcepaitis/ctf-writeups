@@ -1,13 +1,9 @@
----
-layout: post
-title: School CTF 2016 - Wonder Web (Web 100)
-date: 2016-11-07 12:01:00
-categories: 
-- CTF 
-- School CTF 2016
----
+# Wonder Web
 
-## Challenge
+### Challenge
+- **Competition:** School CTF 2016
+- **Category:** Web
+- **Points:** 100
 
 > In the year 2337 we finally secured the WEB! Now we have headers for anything you want. Everybody can make their site secure just by setting ALL the headers on the server.
 > 
@@ -16,7 +12,7 @@ categories:
 > http://wonder.task.school-ctf.org
 
 
-## Solution
+### Solution
 
 The challenge text was fairly obvious about where to begin searching for the flag.  Using the __Live HTTP Headers__ extension for Firefox, I read through the headers that are transmitted when accessing the given web page.  There were all kinds of fantasy headers, some of which ended up containing information about the flag.  An example header:
 
@@ -57,8 +53,6 @@ Putting it all together gave the final flag.
 
 
 
-## Flag
+### Flag
 
-```none
-SchoolCTF{50m3d4y_17_w1ll_b3_54f3}
-```
+`SchoolCTF{50m3d4y_17_w1ll_b3_54f3}`

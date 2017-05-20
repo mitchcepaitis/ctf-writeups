@@ -1,13 +1,9 @@
----
-layout: post
-title: School CTF 2016 - iLs (Forensics 300)
-date: 2016-11-07 12:03:00
-categories: 
-- CTF 
-- School CTF 2016
----
+# iLs
 
-## Challenge
+### Challenge
+- **Competition:** School CTF 2016
+- **Category:** Forensics
+- **Points:** 300
 
 > Famed school pentester Johnny Droptables is still improving his skills in computer security. Unfortunately it’s not always harmless for others. Some days ago he got access to server with very important information. He has created a great amount of folders and left a message:
 > 
@@ -17,7 +13,7 @@ categories:
 >
 > (password guest)
 
-## Solution
+### Solution
 
 The goal of this challenge was to find a non-empty file which contained the flag.  This one file was hidden somewhere amongst many others, which were themselves spread across many different layers of folders.
 
@@ -38,7 +34,7 @@ Let me explain this command a little bit, in case it isn't obvious.
 After running that command and looking through the created __results.txt__ file, the flag was easily found.
 
 
-## Script (Bash)
+### Script (Bash)
 
 ```bash
 #!/bin/bash
@@ -67,8 +63,6 @@ done
 exit 0
 ```
 
-## Flag
+### Flag
 
-```none
-SchoolCTF{5UPP3r_1D3n71f13R_Fl49}
-```
+`SchoolCTF{5UPP3r_1D3n71f13R_Fl49}`

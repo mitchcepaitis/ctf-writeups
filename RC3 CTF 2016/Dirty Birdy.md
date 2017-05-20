@@ -1,24 +1,16 @@
----
-layout: post
-title: RC3 CTF 2016 - Dirty Birdy (Forensics 400)
-date: 2016-11-22 12:11:00
-categories: 
-- CTF 
-- RC3 CTF 2016
----
+# Dirty Birdy
 
-## Challenge
+### Challenge
+- **Competition:** RC3 CTF 2016
+- **Category:** Forensics
+- **Points:** 400
+- **File:** dtrump.img.zip (file not available)
 
 > Description: We had an employee that was up to no good. Our SIEM caught him uploading files to a website from our file server but we canceled the transmission. We currently have an image of home directory that we store on our server. Take a look for yourself on what he stole.
 >
 > Download Link: https://drive.google.com/file/d/0Bw7N3lAmY5PCUWExQUJVZGVySXc/view?usp=sharing
 
-###### Files
-
-1. dtrump.img.zip
-
-
-## Solution
+### Solution
 
 After extracting and mounting the image, I immediately found a suspicious directory subtly named __secretfiles__.  This directory had the following contents:
 
@@ -124,7 +116,6 @@ Wait.  I have the password!  The file __document.txt__ had what seemed to be a p
 
 The very last cell in the second sheet contained the flag typed in microscopic text.
 
-## Flag
-```none
-RC3-2016-SNEAKY21
-```
+### Flag
+
+`RC3-2016-SNEAKY21`

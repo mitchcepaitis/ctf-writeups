@@ -16,7 +16,7 @@ This 'joy' challenge was extremely simple, but a good way to grab some very quic
 
 Click the image for a better look at it:
 
-[![The Magnificent Five Challenge Image](./img/schoolctf-2016-themagnificentfive.png)](/img/2016/schoolctf-2016-themagnificentfive.png)
+[![The Magnificent Five Challenge Image](./img/schoolctf-2016-themagnificentfive.png)](./img/schoolctf-2016-themagnificentfive.png)
 
 
 Each bit of the binary 'launch' code corresponded to the character beneath it (the first bit corresponded the "SchoolCTF"):
